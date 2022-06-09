@@ -11,7 +11,7 @@ class AddViewController: UIViewController {
     
     @IBOutlet weak var saveButton: UIButton!
     @IBOutlet weak var textField: UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,16 +29,7 @@ class AddViewController: UIViewController {
         newGarment.name = textField.text
         newGarment.creationDate = Date()
         
-        saveGarment()
-    }
-    
-    private func saveGarment() {
-        do {
-            try Constants.context.save()
-        }
-        catch {
-            debugPrint(error.localizedDescription)
-        }
+        Constants.save()
     }
 }
 

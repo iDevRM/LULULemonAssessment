@@ -10,4 +10,13 @@ import UIKit
 
 struct Constants {
     static let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    static func save() {
+        do {
+            try context.save()
+        }
+        catch {
+            debugPrint(error.localizedDescription)
+        }
+    }
 }

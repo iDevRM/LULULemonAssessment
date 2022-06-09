@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var garmentArray: [Garment] = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.delegate = self

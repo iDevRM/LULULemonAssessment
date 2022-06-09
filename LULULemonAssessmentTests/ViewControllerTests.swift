@@ -11,27 +11,29 @@ import XCTest
 class ViewControllerTests: XCTestCase {
     
     var sut: ViewController!
-
+    
     override func setUpWithError() throws {
-       super.setUp()
+        super.setUp()
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         sut = (storyboard.instantiateViewController(identifier: "ListID" ) as! ViewController)
         sut.loadViewIfNeeded()
     }
-
+    
     override func tearDownWithError() throws {
         sut = nil
         super.tearDown()
     }
-
+    
     func testTableView_InitialAmountOfRows() {
         let numOfRows = sut.tableView.numberOfRows(inSection: 0)
         XCTAssertGreaterThanOrEqual(numOfRows, 3)
     }
     
-    func testTableView_FirstRowTitle() {
+    func testTableView_PreloadedGarment() {
         if let cell = sut.tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? GarmentCell {
-            XCTAssertEqual(cell.nameLabel.text, "Jeans")
+            if sut.segmentControl.selectedSegmentIndex == 0 {
+                XCTAssertEqual(cell.nameLabel.text, "Jeans")
+            }
         }
     }
     
