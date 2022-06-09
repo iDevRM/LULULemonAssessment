@@ -14,9 +14,16 @@
 		1D1B118C28515B5B00BF0B6F /* LULULemonAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B118A28515B5B00BF0B6F /* LULULemonAssessment.xcdatamodeld */; };
 		1D1B118E28515B5E00BF0B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1B118D28515B5E00BF0B6F /* Assets.xcassets */; };
 		1D1B119128515B5E00BF0B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1B118F28515B5E00BF0B6F /* LaunchScreen.storyboard */; };
-		1D1B119C28515B5E00BF0B6F /* LULULemonAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B119B28515B5E00BF0B6F /* LULULemonAssessmentTests.swift */; };
+		1D1B119C28515B5E00BF0B6F /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B119B28515B5E00BF0B6F /* ViewControllerTests.swift */; };
 		1D1B11A628515B5E00BF0B6F /* LULULemonAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B11A528515B5E00BF0B6F /* LULULemonAssessmentUITests.swift */; };
 		1D1B11A828515B5E00BF0B6F /* LULULemonAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B11A728515B5E00BF0B6F /* LULULemonAssessmentUITestsLaunchTests.swift */; };
+		1DA5BEE7285190A100453B52 /* PreloadedGarments.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DA5BEE6285190A100453B52 /* PreloadedGarments.plist */; };
+		1DA5BEE92851922000453B52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5BEE82851922000453B52 /* Constants.swift */; };
+		1DA5BEEB2851A02600453B52 /* AddViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA5BEEA2851A02600453B52 /* AddViewControllerTests.swift */; };
+		1DC96317285166A400520E59 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC96316285166A400520E59 /* AddViewController.swift */; };
+		1DC96319285169B100520E59 /* GarmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC96318285169B100520E59 /* GarmentCell.swift */; };
+		1DC9632028516F9800520E59 /* Garment+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9631E28516F9800520E59 /* Garment+CoreDataClass.swift */; };
+		1DC9632128516F9800520E59 /* Garment+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC9631F28516F9800520E59 /* Garment+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +54,17 @@
 		1D1B119028515B5E00BF0B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D1B119228515B5E00BF0B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D1B119728515B5E00BF0B6F /* LULULemonAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LULULemonAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D1B119B28515B5E00BF0B6F /* LULULemonAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULULemonAssessmentTests.swift; sourceTree = "<group>"; };
+		1D1B119B28515B5E00BF0B6F /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		1D1B11A128515B5E00BF0B6F /* LULULemonAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LULULemonAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1B11A528515B5E00BF0B6F /* LULULemonAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULULemonAssessmentUITests.swift; sourceTree = "<group>"; };
 		1D1B11A728515B5E00BF0B6F /* LULULemonAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULULemonAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DA5BEE6285190A100453B52 /* PreloadedGarments.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PreloadedGarments.plist; sourceTree = "<group>"; };
+		1DA5BEE82851922000453B52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1DA5BEEA2851A02600453B52 /* AddViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewControllerTests.swift; sourceTree = "<group>"; };
+		1DC96316285166A400520E59 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1DC96318285169B100520E59 /* GarmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentCell.swift; sourceTree = "<group>"; };
+		1DC9631E28516F9800520E59 /* Garment+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Garment+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1DC9631F28516F9800520E59 /* Garment+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Garment+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,12 @@
 		1D1B117528515B5B00BF0B6F = {
 			isa = PBXGroup;
 			children = (
+				1D1B118128515B5B00BF0B6F /* AppDelegate.swift */,
+				1D1B118328515B5B00BF0B6F /* SceneDelegate.swift */,
+				1D1B11B628515C2400BF0B6F /* Model */,
+				1D1B11B528515C1800BF0B6F /* View */,
+				1D1B11B428515C1000BF0B6F /* Controller */,
+				1DA5BEE52851905200453B52 /* Data */,
 				1D1B118028515B5B00BF0B6F /* LULULemonAssessment */,
 				1D1B119A28515B5E00BF0B6F /* LULULemonAssessmentTests */,
 				1D1B11A428515B5E00BF0B6F /* LULULemonAssessmentUITests */,
@@ -101,9 +121,6 @@
 		1D1B118028515B5B00BF0B6F /* LULULemonAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				1D1B118128515B5B00BF0B6F /* AppDelegate.swift */,
-				1D1B118328515B5B00BF0B6F /* SceneDelegate.swift */,
-				1D1B118528515B5B00BF0B6F /* ViewController.swift */,
 				1D1B118728515B5B00BF0B6F /* Main.storyboard */,
 				1D1B118D28515B5E00BF0B6F /* Assets.xcassets */,
 				1D1B118F28515B5E00BF0B6F /* LaunchScreen.storyboard */,
@@ -116,7 +133,8 @@
 		1D1B119A28515B5E00BF0B6F /* LULULemonAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				1D1B119B28515B5E00BF0B6F /* LULULemonAssessmentTests.swift */,
+				1D1B119B28515B5E00BF0B6F /* ViewControllerTests.swift */,
+				1DA5BEEA2851A02600453B52 /* AddViewControllerTests.swift */,
 			);
 			path = LULULemonAssessmentTests;
 			sourceTree = "<group>";
@@ -128,6 +146,41 @@
 				1D1B11A728515B5E00BF0B6F /* LULULemonAssessmentUITestsLaunchTests.swift */,
 			);
 			path = LULULemonAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		1D1B11B428515C1000BF0B6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D1B118528515B5B00BF0B6F /* ViewController.swift */,
+				1DC96316285166A400520E59 /* AddViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D1B11B528515C1800BF0B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1DC96318285169B100520E59 /* GarmentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D1B11B628515C2400BF0B6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DC9631E28516F9800520E59 /* Garment+CoreDataClass.swift */,
+				1DC9631F28516F9800520E59 /* Garment+CoreDataProperties.swift */,
+				1DA5BEE82851922000453B52 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DA5BEE52851905200453B52 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1DA5BEE6285190A100453B52 /* PreloadedGarments.plist */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +289,7 @@
 			files = (
 				1D1B119128515B5E00BF0B6F /* LaunchScreen.storyboard in Resources */,
 				1D1B118E28515B5E00BF0B6F /* Assets.xcassets in Resources */,
+				1DA5BEE7285190A100453B52 /* PreloadedGarments.plist in Resources */,
 				1D1B118928515B5B00BF0B6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC9632128516F9800520E59 /* Garment+CoreDataProperties.swift in Sources */,
+				1DC9632028516F9800520E59 /* Garment+CoreDataClass.swift in Sources */,
 				1D1B118628515B5B00BF0B6F /* ViewController.swift in Sources */,
 				1D1B118228515B5B00BF0B6F /* AppDelegate.swift in Sources */,
+				1DC96319285169B100520E59 /* GarmentCell.swift in Sources */,
+				1DC96317285166A400520E59 /* AddViewController.swift in Sources */,
 				1D1B118C28515B5B00BF0B6F /* LULULemonAssessment.xcdatamodeld in Sources */,
 				1D1B118428515B5B00BF0B6F /* SceneDelegate.swift in Sources */,
+				1DA5BEE92851922000453B52 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +331,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1B119C28515B5E00BF0B6F /* LULULemonAssessmentTests.swift in Sources */,
+				1DA5BEEB2851A02600453B52 /* AddViewControllerTests.swift in Sources */,
+				1D1B119C28515B5E00BF0B6F /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
